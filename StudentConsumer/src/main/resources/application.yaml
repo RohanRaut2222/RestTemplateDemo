@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: StudentConsumer
+
+server:
+  port: 8081
+
+student:
+  service:
+    base-url: http://localhost:8080/student

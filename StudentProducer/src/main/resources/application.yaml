@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: StudentProducer
+
+#Datasource properties
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/commonDb
+    username: postgres
+    password: root
+
+#JPA/Hibernate Properties
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+    properties:
+      format_sql: true
+
